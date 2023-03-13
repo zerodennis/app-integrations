@@ -1,19 +1,15 @@
-# NextPayExam
+## Prerequisites
+- Install Elixir: https://elixir-lang.org/install.html
+- Install Phoenix: https://hexdocs.pm/phoenix/installation.html
+- Install Postgres
+- Install Node and NPM
+- You will need a user `postgres` with password `postgres`
 
-To start your Phoenix server:
+## How to run:
+- In the project root: `mix deps.get`
+- In `/assets` run: `npm i`
+- In the project root: `mix ecto.create` `mix ecto.migrate`
+- Populate with seed data: `mix run priv/repo/seeds.exs`
+- Run the server: `iex -S mix phx.server`
+- Visit `localhost:4000` on your browser
 
-  * Install dependencies with `mix deps.get`
-  * Create and migrate your database with `mix ecto.setup`
-  * Start Phoenix endpoint with `mix phx.server` or inside IEx with `iex -S mix phx.server`
-
-Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
-
-Ready to run in production? Please [check our deployment guides](https://hexdocs.pm/phoenix/deployment.html).
-
-## Learn more
-
-  * Official website: https://www.phoenixframework.org/
-  * Guides: https://hexdocs.pm/phoenix/overview.html
-  * Docs: https://hexdocs.pm/phoenix
-  * Forum: https://elixirforum.com/c/phoenix-forum
-  * Source: https://github.com/phoenixframework/phoenix
