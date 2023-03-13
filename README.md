@@ -13,3 +13,7 @@
 - Run the server: `iex -S mix phx.server`
 - Visit `localhost:4000` on your browser
 
+## Tests
+
+- For integration/e2e tests you will need to install `chromedriver`
+- In project root: `mix test`
