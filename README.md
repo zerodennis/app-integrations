@@ -1,3 +1,7 @@
+<img width="1440" alt="image" src="https://user-images.githubusercontent.com/19771211/224850613-ce0c430c-c5ea-44f2-b92f-41fa562dad3e.png">
+<img width="499" alt="image" src="https://user-images.githubusercontent.com/19771211/224850682-8baa872d-097a-4665-b831-2dd21b209ebd.png">
+
+
 ## Prerequisites
 - Install Elixir: https://elixir-lang.org/install.html
 - Install Phoenix: https://hexdocs.pm/phoenix/installation.html
