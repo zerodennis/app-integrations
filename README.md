@@ -3,7 +3,7 @@
 - Install Phoenix: https://hexdocs.pm/phoenix/installation.html
 - Install Postgres
 - Install Node and NPM
-- You will need a user `postgres` with password `postgres`
+- You will need a postgres user with username `postgres` and with password `postgres`
 
 ## How to run:
 - In the project root: `mix deps.get`
