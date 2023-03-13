@@ -8,6 +8,7 @@
 ## How to run:
 - In the project root: `mix deps.get`
 - In `/assets` run: `npm i`
+- Create a database `next_pay_exam_dev`
 - In the project root: `mix ecto.create` `mix ecto.migrate`
 - Populate with seed data: `mix run priv/repo/seeds.exs`
 - Run the server: `iex -S mix phx.server`
